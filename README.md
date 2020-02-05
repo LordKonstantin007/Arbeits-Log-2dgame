@@ -58,5 +58,9 @@ Heute war Konstantin krank, weil direkt am Unity Dokument nicht weiter gearbeite
 Heute hat Konstantin es geschafft ein C# Script dem Spiel   einzufügen, jedoch waren Teile des Scripts fehlerhaft. Cyrus hat in der Zeit am Arbeitslog gearbeitet.
 
 ### 05.02
+Heute hat Cyrus die Grafischen Elemente für das Main Menu erstellt, Konstantin hat währenddessen ein Unity Project zum Lernen von C# für 2d Spiele gedownloaded.
 
 ### 06.02 
+
+
+
