@@ -11,10 +11,10 @@ Start Menu
 - Quit
 
 Pause Menu
--Resume
--Options
--Back to Title
--Quit
+- Resume
+- Options
+- Back to Title
+
 
 https://www.youtube.com/watch?v=zc8ac_qUXQY 
 https://www.youtube.com/watch?v=JivuXdrIHK0
