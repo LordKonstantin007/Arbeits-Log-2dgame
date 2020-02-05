@@ -59,7 +59,7 @@ Heute hat Konstantin es geschafft ein C# Script dem Spiel   einzufügen, jedoch 
 
 ### 05.02
 Heute hat Cyrus die Grafischen Elemente für das Main Menu erstellt, Konstantin hat währenddessen ein Unity Project zum Lernen von C# für 2d Spiele gedownloaded.
-![Main Menu](/images/Main Menu1.0.JPG)
+![Main Menu](/images/Main_Menu1.0.JPG)
 
 
 ### 06.02 
