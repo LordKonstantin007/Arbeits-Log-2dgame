@@ -61,8 +61,8 @@ Heute hat Konstantin es geschafft ein C# Script dem Spiel   einzufügen, jedoch 
 Heute hat Cyrus die Grafischen Elemente für das Main Menu erstellt, Konstantin hat währenddessen ein Unity Project zum Lernen von C# für 2d Spiele gedownloaded.
 ![Main Menu](/images/MainMenu1.0.JPG)
 
-
 ### 06.02 
+Heute hat sich Cyrus das Unity Paackage CineMachine angeschaut, welches sich sehr eignet für das Erstellen einer Spiel Kamera. Z.B kann man leich einstellen, dass die Kamera der Bewegung des Players folgt ohne dafür einen Script zu erstellen.
 
 
 
