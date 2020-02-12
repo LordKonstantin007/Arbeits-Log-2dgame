@@ -62,7 +62,8 @@ Heute hat Cyrus die Grafischen Elemente für das Main Menu erstellt, Konstantin 
 ![Main Menu](/images/MainMenu1.0.JPG)
 
 ### 06.02 
-Heute hat sich Cyrus das Unity Paackage CineMachine angeschaut, welches sich sehr eignet für das Erstellen einer Spiel Kamera. Z.B kann man leich einstellen, dass die Kamera der Bewegung des Players folgt ohne dafür einen Script zu erstellen.
+Heute hat sich Cyrus das Unity Package CineMachine angeschaut, welches sich sehr eignet für das Erstellen einer Spiel Kamera. Z.B kann man leich einstellen, dass die Kamera der Bewegung des Players folgt ohne dafür einen Script zu erstellen. 
 
-
+### 12.02
+Heute hat Cyrus sich über Speichermöglichkeiten von Spielständen informiert. Dabei haben wir vor die sämtlichen PlayerData Informationen/Variablen als Binary-Files einspeichern und auszulesen.
 
