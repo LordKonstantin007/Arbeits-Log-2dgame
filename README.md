@@ -62,17 +62,17 @@ Heute hat Cyrus die Grafischen Elemente für das Main Menu erstellt, Konstantin 
 ![Main Menu](/images/MainMenu1.0.JPG)
 
 ### 06.02 
-Heute hat sich Cyrus das Unity Package CineMachine angeschaut, welches sich sehr eignet für das Erstellen einer Spiel Kamera. Z.B kann man leich einstellen, dass die Kamera der Bewegung des Players folgt ohne dafür einen Script zu erstellen. 
+Heute hat sich Cyrus das Unity Package CineMachine angeschaut, welches sich sehr eignet für das Erstellen einer Spiel Kamera. Z.B kann man leich einstellen, dass die Kamera der Bewegung des Players folgt ohne dafür einen Script zu erstellen. Konstantin hat angefangen sich mit der Bewegung des Players auseinander zu setzen. 
 
 ### 12.02
-Heute hat Cyrus sich über Speichermöglichkeiten von Spielständen informiert. Dabei haben wir vor die sämtlichen PlayerData Informationen/Variablen als Binary-Files einspeichern und auszulesen.
+Heute hat Cyrus sich über Speichermöglichkeiten von Spielständen informiert. Dabei haben wir vor die sämtlichen PlayerData Informationen/Variablen als Binary-Files einspeichern und auszulesen. Heute hat Konstantin sein geschriebenes C# Script auf Fehler überprüft.
 
 ### 13.02 
-Heute haben wir uns feste Gedanken über die Entwicklung des Spiels gemacht. Es soll ein Single Player - Open World - 2D Spiel. Dabei wird ein World Generator die Herausforderung des Projekts. Ein bekannter Triple A Titel aus diesem Genre ist zB. Terraria. Konstantin hat am Blog geschrieben.
+Heute haben wir uns feste Gedanken über die Entwicklung des Spiels gemacht. Es soll ein Single Player - Open World - 2D Spiel. Dabei wird ein World Generator die Herausforderung des Projekts. Ein bekannter Triple A Titel aus diesem Genre ist zB. Terraria. Konstantin hat am Blog geschrieben. Konstantin hat sich mit weiter mit der Problembehebung des fehlerfreien scripts beschäftigt. Dabei fand er heraus, dass das script falsch zum player zugeordnet war. Cyrus hat es geschafft von Assets Store CineMachine zu downloaden.
 
 ### 14.02
 Heute ist uns aufgefallen das viele Bearbeitungen in dem Arbeitsblog nicht übernommen wurden somit 45min Arbeit verloren gegangen ist.
-
+Das konnte dank Konstantins Gedächniss schnell wieder aufgeschrieben werden. Jetzt geht es weiter mit dem programmieren.  
 
 
 
