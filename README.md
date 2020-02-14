@@ -67,3 +67,14 @@ Heute hat sich Cyrus das Unity Package CineMachine angeschaut, welches sich sehr
 ### 12.02
 Heute hat Cyrus sich über Speichermöglichkeiten von Spielständen informiert. Dabei haben wir vor die sämtlichen PlayerData Informationen/Variablen als Binary-Files einspeichern und auszulesen.
 
+### 13.02 
+Heute haben wir uns feste Gedanken über die Entwicklung des Spiels gemacht. Es soll ein Single Player - Open World - 2D Spiel. Dabei wird ein World Generator die Herausforderung des Projekts. Ein bekannter Triple A Titel aus diesem Genre ist zB. Terraria. Konstantin hat am Blog geschrieben.
+
+### 14.02
+Heute ist uns aufgefallen das viele Bearbeitungen in dem Arbeitsblog nicht übernommen wurden somit 45min Arbeit verloren gegangen ist.
+
+
+
+
+
+
