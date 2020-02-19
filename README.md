@@ -75,7 +75,7 @@ Heute ist uns aufgefallen das viele Bearbeitungen in dem Arbeitsblog nicht über
 Das konnte dank Konstantins Gedächniss schnell wieder aufgeschrieben werden. Jetzt geht es weiter mit dem programmieren. Cyrus hat weiter am Abspeicherungssystem gearbeitet. 
 
 ### 19.02
-Heute war Konstantin krank, Cyrus hat sich in der Zeit damit befasst einen 2D Terrain Generator zu erstellen. 
+Heute war Konstantin krank, Cyrus hat sich in der Zeit damit befasst einen 2D Terrain Generator zu erstellen. Als nächstes erstellen wir einfarbige Tiles für die Varietäten von Blöcken, welche generiert werden sollen. 
 
 
 
