@@ -77,6 +77,9 @@ Das konnte dank Konstantins Gedächniss schnell wieder aufgeschrieben werden. Je
 ### 19.02
 Heute war Konstantin krank, Cyrus hat sich in der Zeit damit befasst einen 2D Terrain Generator zu erstellen. Als nächstes erstellen wir einfarbige Tiles für die Varietäten von Blöcken, welche generiert werden sollen. 
 
+### 20.02 
+Heute war Konstantin wieder krank, doch ich habe mir den Laptop besorgt um weiterzuarbeiten. Momentan stehe ich vor der Herausforderung einen Procedural 2d Terrain Generator zu erstellen. Damit lässt sich eine Spielwelt komplett künstlich erstellen. 
+
 
 
 
