@@ -80,6 +80,7 @@ Heute war Konstantin krank, Cyrus hat sich in der Zeit damit befasst einen 2D Te
 ### 20.02 
 Heute war Konstantin wieder krank, doch ich habe mir den Laptop besorgt um weiterzuarbeiten. Momentan stehe ich vor der Herausforderung einen Procedural 2d Terrain Generator zu erstellen. Damit lässt sich eine Spielwelt komplett künstlich erstellen. 
 
-
+### 06.03
+Heute haben wir gemeinsam versucht einen Script für die Bewegung fertig zustellen. Das bisherige Problem war das Unity das Spiel nicht starten ließ, aufgrund von Comile errors. Bestimmte Packages meldeten uns mehrmals Fehlermeldungen und wir konnten nicht überprüfen ob der Script funktioniert. Zudem wurde unser rote Ball nicht in der Vorgerenderten Kamera angezeigt. Das bedeutet das die Einstellung für die SortingLayer nicht richtig waren. Zusätzlich war unsere Kamera komplett verbuggt.
 
 
