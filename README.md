@@ -83,4 +83,5 @@ Heute war Konstantin wieder krank, doch ich habe mir den Laptop besorgt um weite
 ### 06.03
 Heute haben wir gemeinsam versucht einen Script für die Bewegung fertig zustellen. Das bisherige Problem war das Unity das Spiel nicht starten ließ, aufgrund von Comile errors. Bestimmte Packages meldeten uns mehrmals Fehlermeldungen und wir konnten nicht überprüfen ob der Script funktioniert. Zudem wurde unser rote Ball nicht in der Vorgerenderten Kamera angezeigt. Das bedeutet das die Einstellung für die SortingLayer nicht richtig waren. Zusätzlich war unsere Kamera komplett verbuggt.
 
-
+### 11.03
+Heute ist Cyrus krank und deshlab schreibt Konstantin den Arbeitsblog weiter. 
