@@ -37,7 +37,7 @@ https://learn.unity.com/tutorial/coding-in-unity-for-the-absolute-beginner#5cf19
 Heute ist uns gelungen eine vorläufige Tilemap zu erstellen. Generell haben wir uns vorgenommen erst uns auf die Programmierung des Spiels zu konzentrieren, und Grafische Elemente erst später zu bearbeiten. Cyrus hat sich damit beschäftigtn eine kleine Grundebene zu erstellen um den Player auf dieser Ebene zu bewegen.Währenddessen hat Konstantin sich verschiedene Wege angeschaut die Programmierung für die Bewegung zu implementieren. Jedoch lies sich das Spiel nicht richtig ausführen.
 
 ### 23.01 
-Heute hat Cyrus vorübergehend eine rote Kugel dem Spiel eingefügt, welche den Player darstellen soll. Zudem hat sich Cyrus mit Gameobject Eigenschaften befasst bzw. welche Funktionen benötigt werden um den Spieler zu bewegen. (Tile Renderer, Box Collider, ...)
+Heute hat Cyrus vorübergehend eine rote Kugel dem Spiel eingefügt, welche den Player darstellen soll. Zudem hat sich Cyrus mit Gameobject Eigenschaften befasst bzw. welche Komponenten benötigt werden um den Spieler zu bewegen. (Tile Renderer, Box Collider und Rigidbody.)
 
 ### 28.01
 Heute war Konstantin krank, weil direkt am Unity Dokument nicht weiter gearbeitet werden konnte hat Cyrus sich über einige Funktionen in Unity informiert
@@ -78,13 +78,14 @@ Heute ist Cyrus krank und deshlab schreibt Konstantin den Arbeitsblog weiter.
 Heute haben wir uns dazu entschlossen das Projekt neu zuerstellen in der neusten Unity Version, weil die von uns gedownloadedten Packages zu compiling errors bei der Ausführung des Spiels sorgten. Zudem ist uns aufgefallen, dass wir keine Tilemap benötigen wenn wir eine zufällig generierte Welt erstellen wollen. Stattdessen brauchen wir ein Script in welchem diese Generierung vorgegeben wird.
 
 ### 20.03
-Heute hat Cyrus für das Spiel an einem World Generation Script gearbeitet. Jedoch waren die Ersten Ergebnisse ernüchternd:
+Heute hat Cyrus für das Spiel an einem World Generation Script gearbeitet. Dafür verwenden wir Perlin Noise. Jedoch waren die Ersten Ergebnisse ernüchternd:
 
 
 Außerdem haben wir das Probelm, dass uns im Unity integrierten Spiel Window nichts angezeigt wird, was daraufhindeutet das die Camera falsch eingestellt ist.
 
 ### 21.03
-Heute hat Cyrus den Script verändert. Es wurden neue Tiles dem Script hinzugefügt darunter Erze. Durch erstellte Parameter lassen sich folgende Dinge variieren: Spawnwahrscheinlichkeit der Erze, Terrainform, .... Außerdem haben wir verändert dass der Script nicht über einen Handler ausgeführt wird sondern über einen anderes Script.
+Heute hat Cyrus den Script verändert. Es wurden neue Tiles dem Script hinzugefügt darunter Erze. Durch erstellte Parameter lassen sich folgende Dinge variieren: Spawnwahrscheinlichkeit der Erze, Terrainform, .... Außerdem haben wir haben uns dazu entschieden dies folgend zu machen:
+Ein Scipt definiert die Größe eines Chunks und setzt weitere Chunks ans Ende eines Chunks. Für die Generierung der Chunks gibt es einen verknüptes Chunk Prefap welches durch den GeneratingChunk Script verbunden ist. Für die Auswahl eines Chunks ist einzufällig generierter Seed verantwortlich. Das bedeutet das jeder Seed von einem Random Number Generator (RNG) ausgewählt wird (eine Zahl zwischen 100000 und -100000) und durch das GeneratingChunks Script in eine feste Struktur umgewandelt wird.
 
 ### 22.03
 Heute hat Cyrus die Chunks vergrößert und die Wahrscheinlichkeiten angepasst. Zudem haben wir einen Raum definiert in welchen Gold und Diamant Erze Spawnen können. Zudem wurde der Bug gefixxed, dass die Erze auch den jeweiligen Chunks angehören in welchen sie generiert werden.
@@ -105,6 +106,4 @@ Heute wurde der Bugg gefixt und die Kamera folgt auch auf der Y-Achse.
 
 
 
-Wir haben uns dazu entschieden dies folgend zu machen:
-Ein Scipt definiert die Größe eines Chunks und setzt weitere Chunks ans Ende eines Chunks. Für die Generierung der Chunks gibt es einen verknüptes Chunk Prefap welches durch den GeneratingChunk Script verbunden ist. Für die Auswahl eines Chunks ist einzufällig generierter Seed verantwortlich. Das bedeutet das jeder Seed von einem Random Number Generator (RNG) ausgewählt wird (eine Zahl zwischen x und y) und durch das GeneratingChunks Script in eine feste Struktur umgewandelt wird.
 
