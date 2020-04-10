@@ -95,6 +95,7 @@ Heute haben wir einen der Scripte von Konstantin ausprobiert, jedoch gibt es noc
 - dem Springen
 - der Bodenhaftung
 - der Rotierung beim Springen
+-> Hier Sichtbar: https://www.youtube.com/watch?v=905DFJR241g
 
 ### 24.03
 Heute hat Cyrus ein Script geschrieben für eine Kamera welche den Spieler verfolgt. Dies funktioniert bisher nur für die X-Achse.
