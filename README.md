@@ -75,7 +75,7 @@ Heute ist uns aufgefallen das viele Bearbeitungen in dem Arbeitsblog nicht über
 Das konnte dank Konstantins Gedächniss schnell wieder aufgeschrieben werden. Jetzt geht es weiter mit dem programmieren. Cyrus hat weiter am Abspeicherungssystem gearbeitet. 
 
 ### 19.02
-Heute war Konstantin krank, Cyrus hat sich in der Zeit damit befasst einen 2D Terrain Generator zu erstellen. Als nächstes erstellen wir einfarbige Tiles für die Varietäten von Blöcken, welche generiert werden sollen. 
+Heute war Konstantin krank, Cyrus hat sich in der Zeit damit befasst einen 2D Terrain Generator zu erstellen. Dafür haben wir vorerst fremde Tiles, also nicht selbst erstellte Texturen für die Tiles/Prefaps verwendet.
 
 ### 20.02 
 Heute war Konstantin wieder krank, doch ich habe mir den Laptop besorgt um weiterzuarbeiten. Momentan stehe ich vor der Herausforderung einen Procedural 2d Terrain Generator zu erstellen. Damit lässt sich eine Spielwelt komplett künstlich erstellen. 
@@ -87,4 +87,14 @@ Heute haben wir gemeinsam versucht einen Script für die Bewegung fertig zustell
 Heute ist Cyrus krank und deshlab schreibt Konstantin den Arbeitsblog weiter.
 
 ### 13.03
+Heute haben wir uns dazu entschlossen das Projekt neu zuerstellen in der neusten Unity Version, weil die von uns gedownloadedten Packages zu compiling errors bei der Ausführung des Spiels sorgten. Zudem ist uns aufgefallen, dass wir keine Tilemap benötigen wenn wir eine zufällig generierte Welt erstellen wollen. Stattdessen brauchen wir ein Script in welchem diese Generierung vorgegeben wird.
+
+### 20.03
+Heute hat Cyrus für das Spiel an einem World Generation Script gearbeitet. Jedoch waren die Ersten Ergebnisse ernüchternd:
+
+### 21.03
+Heute hat Cyrus den Script verändert
+
+Wir haben uns dazu entschieden dies folgend zu machen:
+Ein Scipt definiert die Größe eines Chunks und setzt weitere Chunks ans Ende eines Chunks. Für die Generierung der Chunks gibt es einen verknüptes Chunk Prefap welches durch den GeneratingChunk Script verbunden ist. Für die Auswahl eines Chunks ist einzufällig generierter Seed verantwortlich. Das bedeutet das jeder Seed von einem Random Number Generator (RNG) ausgewählt wird (eine Zahl zwischen x und y) und durch das GeneratingChunks Script in eine feste Struktur umgewandelt wird.
 
