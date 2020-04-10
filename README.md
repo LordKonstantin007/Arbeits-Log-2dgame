@@ -49,7 +49,7 @@ https://learn.unity.com/tutorial/coding-in-unity-for-the-absolute-beginner#5cf19
 Heute ist uns gelungen eine vorläufige Tilemap zu erstellen. Generell haben wir uns vorgenommen erst uns auf die Programmierung des Spiels zu konzentrieren, und Grafische Elemente erst später zu bearbeiten. Cyrus hat sich damit beschäftigtn eine kleine Grundebene zu erstellen um den Player auf dieser Ebene zu bewegen.Währenddessen hat Konstantin sich verschiedene Wege angeschaut die Programmierung für die Bewegung zu implementieren.
 
 ### 23.01 
-Heute hat Cyrus vorübergehend eine rote Kugel dem Spiel eingefügt, welche den Player darstellen soll. Zudem hat sich Cyrus mit Gameobject Eigenschaften befasst bzw. welche Funktionen benötigt werden um den Spieler zu bewegen.
+Heute hat Cyrus vorübergehend eine rote Kugel dem Spiel eingefügt, welche den Player darstellen soll. Zudem hat sich Cyrus mit Gameobject Eigenschaften befasst bzw. welche Funktionen benötigt werden um den Spieler zu bewegen. (Tile Renderer, Box Collider, ...)
 
 ### 28.01
 Heute war Konstantin krank, weil direkt am Unity Dokument nicht weiter gearbeitet werden konnte hat Cyrus sich über einige Funktionen in Unity informiert
