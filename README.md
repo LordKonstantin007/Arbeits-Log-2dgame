@@ -4,34 +4,13 @@
 Konstantin hat Tilemaps als Map Vorlage und 2dgame Packages für unser Spiel gedownloaded z.B. TextMeshpro für das bessere Bearbeiten von Texten im Spiel.
 Cyrus hat sich damit außeinandergesetzt ein Main Menu und ein Pause Menu zu erstellen. Dafür wird ein Canvas als Panel im Hintergrund verwendet und Buttons eingefügt mit welche man in Zukunft auch das Spiel starten, laden und verlassen soll.
 
-https://www.youtube.com/watch?v=zc8ac_qUXQY 
-https://www.youtube.com/watch?v=JivuXdrIHK0
-https://goo.gl/YdQ3MA
-
 ### 15.01
 Heute hat sich Cyrus sich einen Plan für ein Save & Loading System erstellt, sowie ein Layout für die Optionen erstellt und hat C# Tutorial Packages von Unity gedownloaded.
 Konstantin hat sich währenddessen um die Bewegung eines Players gekümmert und hat Micosoft Visual Studio fürs programmieren mit C# installiert.. (Gehen, laufen, springen)
 
-https://www.youtube.com/watch?v=XOjd_qU2Ido
-https://unity3d.com/de/2d/solution-guide
-
 ### 16.01
 Heute haben wir versucht unsere tilemaps in unity einer tile palett hinzuzufühen, jedoch hatten wir Probleme bei der Größen formatierung.
 Dabei spielt die Einstellung Pixels per Unit für die Tilemaps eine große Rolle, um diese gut zu formatieren.
-
-
-https://www.youtube.com/watch?v=cR8jP8OGbhM
-https://www.youtube.com/watch?v=WFO1GUKYARQ
-http://devassets.com/assets/2d-mega-pack/
-https://www.youtube.com/watch?list=PLPV2KyIb3jR42oVBU6K2DIL6Y22Ry9J1c&v=UbPiCgCkHTE
-https://www.youtube.com/playlist?list=PLPV2KyIb3jR42oVBU6K2DIL6Y22Ry9J1c
-https://learn.unity.com/tutorial/2d-platformer-challenge-paint-your-level?projectId=5c8838feedbc2a0ee1e7e030#5c8932f9edbc2a1410354fda
-https://learn.unity.com/tutorial/platformer-mod-custom-triggers?projectId=5c8838feedbc2a0ee1e7e030#5d5af9b9edbc2a002489c903
-https://learn.unity.com/project/2d-platformer-template
-https://www.youtube.com/watch?v=0vtAoFaM43E
-https://unity3d.com/de/learning-c-sharp-in-unity-for-beginners
-https://learn.unity.com/tutorial/coding-in-unity-for-the-absolute-beginner#5cf19e6dedbc2a38d6e996c2
-
 
 ### 22.01
 Heute ist uns gelungen eine vorläufige Tilemap zu erstellen. Generell haben wir uns vorgenommen erst uns auf die Programmierung des Spiels zu konzentrieren, und Grafische Elemente erst später zu bearbeiten. Cyrus hat sich damit beschäftigtn eine kleine Grundebene zu erstellen um den Player auf dieser Ebene zu bewegen.Währenddessen hat Konstantin sich verschiedene Wege angeschaut die Programmierung für die Bewegung zu implementieren. Jedoch lies sich das Spiel nicht richtig ausführen.
@@ -78,17 +57,23 @@ Heute ist Cyrus krank und deshlab schreibt Konstantin den Arbeitsblog weiter.
 Heute haben wir uns dazu entschlossen das Projekt neu zuerstellen in der neusten Unity Version, weil die von uns gedownloadedten Packages zu compiling errors bei der Ausführung des Spiels sorgten. Zudem ist uns aufgefallen, dass wir keine Tilemap benötigen wenn wir eine zufällig generierte Welt erstellen wollen. Stattdessen brauchen wir ein Script in welchem diese Generierung vorgegeben wird.
 
 ### 20.03
-Heute hat Cyrus für das Spiel an einem World Generation Script gearbeitet. Dafür verwenden wir Perlin Noise. Jedoch waren die Ersten Ergebnisse ernüchternd:
+Heute hat Cyrus für das Spiel an einem World Generation Script gearbeitet. Dafür verwenden wir Perlin Noise:
+![wg1](/images/wg1.PNG)
 
-
-Außerdem haben wir das Probelm, dass uns im Unity integrierten Spiel Window nichts angezeigt wird, was daraufhindeutet das die Camera falsch eingestellt ist.
+Außerdem haben wir immernoch das Problem, dass uns im Unity integrierten Spiel Window nichts angezeigt wird, was daraufhindeutet das die Camera falsch eingestellt ist.
 
 ### 21.03
 Heute hat Cyrus den Script verändert. Es wurden neue Tiles dem Script hinzugefügt darunter Erze. Durch erstellte Parameter lassen sich folgende Dinge variieren: Spawnwahrscheinlichkeit der Erze, Terrainform, .... Außerdem haben wir haben uns dazu entschieden dies folgend zu machen:
 Ein Scipt definiert die Größe eines Chunks und setzt weitere Chunks ans Ende eines Chunks. Für die Generierung der Chunks gibt es einen verknüptes Chunk Prefap welches durch den GeneratingChunk Script verbunden ist. Für die Auswahl eines Chunks ist einzufällig generierter Seed verantwortlich. Das bedeutet das jeder Seed von einem Random Number Generator (RNG) ausgewählt wird (eine Zahl zwischen 100000 und -100000) und durch das GeneratingChunks Script in eine feste Struktur umgewandelt wird.
+![wg2](/images/wg2.PNG)
+![wg3](/images/wg3.PNG)
 
 ### 22.03
 Heute hat Cyrus die Chunks vergrößert und die Wahrscheinlichkeiten angepasst. Zudem haben wir einen Raum definiert in welchen Gold und Diamant Erze Spawnen können. Zudem wurde der Bug gefixxed, dass die Erze auch den jeweiligen Chunks angehören in welchen sie generiert werden.
+Vorher:
+![wg4](/images/wg4.PNG)
+Nachher:
+![wg5](/images/wg5.PNG)
 
 ### 23.03
 Heute haben wir einen der Scripte von Konstantin ausprobiert, jedoch gibt es noch Schwierigkeiten mit:
