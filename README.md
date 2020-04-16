@@ -1,7 +1,7 @@
 # Arbeits-Log 2D-Spiel
 
 ### 3.12
-Heute haben wir uns endschieden anstatt an einer KI zu arbeiten auch etwas simpleres erstmal zu erschaffen, ein Spiel. 
+Heute haben wir uns entschieden anstatt an einer KI zu arbeiten auch etwas simpleres erstmal zu erschaffen, ein Spiel. 
 
 ### 4.12
 Heute haben wir den Entschluss gemacht ein 2d Spiel zu machen, jedoch hatten wir Anfangs komplett andere Ideen als das was wir am Ende umgesetzt haben. Außerdem haben wir Unity und ein 2d Unity Game gedownloaded und wir haben uns Unity angeschaut.
@@ -14,7 +14,7 @@ Konstantin hat Tilemaps als Map Vorlage und 2dgame Packages für unser Spiel ged
 Cyrus hat sich damit außeinandergesetzt ein Main Menu und ein Pause Menu zu erstellen. 
 
 ### 11.12
-Heute hat sich Cyrus sich einen Plan für ein Save & Loading System erstellt, sowie ein Layout für die Optionen erstellt und hat C# Tutorial Packages von Unity gedownloaded.
+Heute hat sich Cyrus sich einen Plan für ein Save & Loading System erstellt, sowie ein Layout für die Optionen erstellt und hat C# Tutorial Packages von Unity gedownloaded. 
 Konstantin hat sich währenddessen um die Bewegung eines Players gekümmert und hat Micosoft Visual Studio fürs programmieren mit C# installiert.. (Gehen, laufen, springen)
 
 ### 12.12
@@ -24,15 +24,14 @@ Heute hat Cyrus angefangen an der Main Menu Scene zu arbeiten. Konstantin hat si
 In den Ferien hat Cyrus weiter am Hauptmenu gearbeitet und Konstantin an der Bewegung.
 
 ### 14.01
-Heute hat sich Cyrus sich einen Plan für ein Save & Loading System erstellt, sowie ein Layout für die Optionen erstellt und hat C# Tutorial Packages von Unity gedownloaded.
-Konstantin hat sich währenddessen um die Bewegung eines Players gekümmert. (Gehen, laufen, springen)
+Heute haben wir neue Ideen für Spielmechaniken gesammelt
 
 ### 15.01
 Heute haben wir versucht unsere tilemaps in unity einer tile palett hinzuzufühen, jedoch hatten wir Probleme bei der Größen formatierung.
 Dabei spielt die Einstellung Pixels per Unit für die Tilemaps eine große Rolle, um diese gut zu formatieren. (Es hat sich jedoch herausgestellt das dies für die automatische Weltgeneration nicht notwendig ist.)
 
 ### 16.01
-Heute ist uns gelungen eine vorläufige Tilemap zu erstellen. Generell haben wir uns vorgenommen erst uns auf die Programmierung des Spiels zu konzentrieren, und Grafische Elemente erst später zu bearbeiten. Cyrus hat sich damit beschäftigtn eine kleine Grundebene zu erstellen um den Player auf dieser Ebene zu bewegen.Währenddessen hat Konstantin sich verschiedene Wege angeschaut die Programmierung für die Bewegung zu implementieren. Jedoch lies sich das Spiel nicht richtig ausführen.
+Heute ist uns gelungen eine vorläufige Tilemap zu erstellen. Generell haben wir uns vorgenommen erst uns auf die Programmierung des Spiels zu konzentrieren, und Grafische Elemente erst später zu bearbeiten. Cyrus hat sich damit beschäftigtn eine kleine Grundebene zu erstellen um den Player auf dieser Ebene zu bewegen. Währenddessen hat Konstantin sich verschiedene Wege angeschaut die Programmierung für die Bewegung zu implementieren. Jedoch lies sich das Spiel nicht richtig ausführen.
 
 ### 22.01
 Heute hat Cyrus vorübergehend eine rote Kugel dem Spiel eingefügt, welche den Player darstellen soll. Zudem hat sich Cyrus mit Gameobject Eigenschaften befasst bzw. welche Komponenten benötigt werden um den Spieler zu bewegen. (Tile Renderer, Box Collider und Rigidbody.)
@@ -58,14 +57,14 @@ Heute hat sich Cyrus das Unity Package CineMachine angeschaut, welches sich sehr
 Heute hat Cyrus sich über Speichermöglichkeiten von Spielständen informiert. Dabei haben wir vor die sämtlichen PlayerData Informationen/Variablen als Binary-Files einspeichern und auszulesen. Heute hat Konstantin einige Fehler im Player Movement Script behoben und das Springen eingefügt.
 
 ### 13.02 
-Heute haben wir uns feste Gedanken über die Entwicklung des Spiels gemacht. Es soll ein Single Player - Open World - 2D Spiel. Dabei wird ein World Generator die Herausforderung des Projekts. Ein bekannter Triple A Titel aus diesem Genre ist zB. Terraria. Konstantin hat am Blog geschrieben. Konstantin hat sich mit weiter mit der Problembehebung des fehlerfreien scripts beschäftigt. Dabei fand er heraus, dass das script falsch zum player zugeordnet war. Cyrus hat es geschafft von Assets Store CineMachine zu downloaden.
+Heute haben wir uns weitere feste Gedanken über die Entwicklung des Spiels gemacht. Es soll ein Single Player - Open World - 2D Spiel. Dabei wird ein World Generator die Herausforderung des Projekts. Ein bekannter Triple A Titel aus diesem Genre ist zB. Terraria. Konstantin hat am Blog geschrieben. Außerdem konnte Cyrus ein Fehler bei der Script Zuweisung beheben.
 
 ### 14.02
 Heute ist uns aufgefallen das viele Bearbeitungen in dem Arbeitsblog nicht übernommen wurden somit 45min Arbeit verloren gegangen ist.
-Das konnte dank Konstantins Gedächniss schnell wieder aufgeschrieben werden. Jetzt geht es weiter mit dem programmieren. Cyrus hat weiter am Abspeicherungssystem gearbeitet. 
+Cyrus hat weiter am World Generator gearbeitet und Konstantin den Arbeitslog vervollständigt. 
 
 ### 19.02
-Heute war Konstantin krank, Cyrus hat sich in der Zeit damit befasst einen 2D Terrain Generator zu erstellen. Dafür haben wir vorerst fremde Tiles, also nicht selbst erstellte Texturen für die Tiles/Prefaps verwendet.
+Heute war Konstantin krank, Cyrus hat sich in der Zeit weiter damit befasst einen 2D Terrain Generator zu erstellen. Dafür haben wir vorerst fremde Tiles, also nicht selbst erstellte Texturen für die Tiles/Prefaps verwendet. (Diese sind immernoch im Spiel)
 
 ### 20.02 
 Heute war Konstantin wieder krank, doch ich habe mir den Laptop besorgt um weiterzuarbeiten. Cyrus hat sich mit der World Generation außerinander gesetzt und sich videos über Perlin Noise angeschaut.
@@ -83,10 +82,10 @@ Heute haben wir uns dazu entschlossen das Projekt neu zuerstellen in der neusten
 ## ___Quarantäne ________________________________________________
 
 ### 20.03
-Heute hat Cyrus für das Spiel an einem World Generation Script gearbeitet. Dafür verwenden wir Perlin Noise:
+Heute hat Cyrus es endlich geschafft einen World Generation Script auszuführen.
 ![wg1](/images/wg1.PNG)
 
-Außerdem haben wir immernoch das Problem, dass uns im Unity integrierten Spiel Window nichts angezeigt wird, was daraufhindeutet das die Camera falsch eingestellt ist.
+Außerdem haben wir immernoch das Problem, dass uns im Unity integrierten Spiel Window nichts angezeigt wird, was daraufhindeutet das die Camera falsch eingestellt ist. 
 
 ### 21.03
 Heute hat Cyrus den Script verändert. Es wurden neue Tiles dem Script hinzugefügt darunter Erze. Durch erstellte Parameter lassen sich folgende Dinge variieren: Spawnwahrscheinlichkeit der Erze, Terrainform, .... Außerdem haben wir haben uns dazu entschieden dies folgend zu machen:
