@@ -85,7 +85,6 @@ Heute haben wir uns dazu entschlossen das Projekt neu zuerstellen in der neusten
 Heute hat Cyrus es endlich geschafft einen World Generation Script auszuführen.
 ![wg1](/images/wg1.PNG)
 
-Außerdem haben wir immernoch das Problem, dass uns im Unity integrierten Spiel Window nichts angezeigt wird, was daraufhindeutet das die Camera falsch eingestellt ist. 
 
 ### 21.03
 Heute hat Cyrus den Script verändert. Es wurden neue Tiles dem Script hinzugefügt darunter Erze. Durch erstellte Parameter lassen sich folgende Dinge variieren: Spawnwahrscheinlichkeit der Erze, Terrainform, .... Außerdem haben wir haben uns dazu entschieden dies folgend zu machen:
