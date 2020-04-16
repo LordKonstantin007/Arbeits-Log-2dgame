@@ -111,7 +111,7 @@ Heute haben wir einen der Scripte von Konstantin ausprobiert, jedoch gibt es noc
 Heute hat Cyrus ein Script geschrieben für eine Kamera welche den Spieler verfolgt. Dies funktioniert bisher nur für die X-Achse.
 
 ### 25.03
-Heute wurde der Bugg gefixt und die Kamera folgt auch auf der Y-Achse.
+Heute wurde der Bugg gefixt und die Kamera folgt auch auf der Y-Achse. Jedoch ist die Kamera um 80 Längeneinheiten unter dem Spieler versetzt.
 
 
 
