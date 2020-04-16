@@ -80,7 +80,7 @@ Heute ist Cyrus krank, Konstantin hat weiter an der Bewegung gearbeitet.
 Heute haben wir uns dazu entschlossen das Projekt neu zuerstellen in der neusten Unity Version, weil die von uns gedownloadedten Packages zu compiling errors bei der Ausführung des Spiels sorgten. Zudem ist uns aufgefallen, dass wir keine Tilemap benötigen wenn wir eine zufällig generierte Welt erstellen wollen. Stattdessen brauchen wir ein Script in welchem diese Generierung vorgegeben wird.
 
 
-## ___Quarantäne __________________________________________________________________________________
+## ___Quarantäne ________________________________________________
 
 ### 20.03
 Heute hat Cyrus für das Spiel an einem World Generation Script gearbeitet. Dafür verwenden wir Perlin Noise:
